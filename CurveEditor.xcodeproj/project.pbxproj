@@ -12,6 +12,9 @@
 		5AA2B79124295D2E001472B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AA2B79024295D2E001472B0 /* Assets.xcassets */; };
 		5AA2B79424295D2E001472B0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AA2B79324295D2E001472B0 /* Preview Assets.xcassets */; };
 		5AA2B79724295D2E001472B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AA2B79524295D2E001472B0 /* Main.storyboard */; };
+		5AA2B7A024295D46001472B0 /* CurveEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA2B79F24295D46001472B0 /* CurveEditorView.swift */; };
+		5AA2B7A224295D8F001472B0 /* GeometryExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA2B7A124295D8F001472B0 /* GeometryExtensions.swift */; };
+		5AA2B7A424295D99001472B0 /* Dragging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA2B7A324295D99001472B0 /* Dragging.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +26,9 @@
 		5AA2B79624295D2E001472B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5AA2B79824295D2E001472B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5AA2B79924295D2E001472B0 /* CurveEditor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CurveEditor.entitlements; sourceTree = "<group>"; };
+		5AA2B79F24295D46001472B0 /* CurveEditorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurveEditorView.swift; sourceTree = "<group>"; };
+		5AA2B7A124295D8F001472B0 /* GeometryExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeometryExtensions.swift; sourceTree = "<group>"; };
+		5AA2B7A324295D99001472B0 /* Dragging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dragging.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,9 @@
 			isa = PBXGroup;
 			children = (
 				5AA2B78C24295D2C001472B0 /* AppDelegate.swift */,
+				5AA2B7A124295D8F001472B0 /* GeometryExtensions.swift */,
+				5AA2B7A324295D99001472B0 /* Dragging.swift */,
+				5AA2B79F24295D46001472B0 /* CurveEditorView.swift */,
 				5AA2B78E24295D2C001472B0 /* ContentView.swift */,
 				5AA2B79024295D2E001472B0 /* Assets.xcassets */,
 				5AA2B79524295D2E001472B0 /* Main.storyboard */,
@@ -145,8 +154,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AA2B7A024295D46001472B0 /* CurveEditorView.swift in Sources */,
 				5AA2B78F24295D2C001472B0 /* ContentView.swift in Sources */,
 				5AA2B78D24295D2C001472B0 /* AppDelegate.swift in Sources */,
+				5AA2B7A224295D8F001472B0 /* GeometryExtensions.swift in Sources */,
+				5AA2B7A424295D99001472B0 /* Dragging.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
